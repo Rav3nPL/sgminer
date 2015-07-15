@@ -9,6 +9,6 @@ setx GPU_MAX_ALLOC_PERCENT 100
 del *.bin
 
 
-sgminer.exe --no-submit-stale --kernel Lyra2RE -o stratum+tcp://92.27.201.170:9174 -u m -p 1 --gpu-platform 2 -I 19 --shaders 2816  -w 64 -g 2 
+sgminer.exe --kernel Lyra2RE -o stratum+tcp://92.27.201.170:9174 -u m -p 1 --gpu-platform 2 -I 19 --shaders 2816  -w 64 -g 2 
 
 pause
